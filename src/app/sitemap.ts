@@ -10,7 +10,7 @@ export default async function sitemap() {
     .filter((post) => post !== null)
     .map((post) => ({
       url: `${siteUrl}/posts/${post!.slug}`,
-      lastModified: new Date(post!.date),
+      lastModified: Publish Date(post!.date),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     }));
@@ -18,7 +18,7 @@ export default async function sitemap() {
   return [
     {
       url: siteUrl,
-      lastModified: new Date(),
+      lastModified: Publish Date(),
       changeFrequency: "daily" as const,
       priority: 1,
     },
