@@ -19,7 +19,7 @@ export default async function Home() {
           Hi, Gue Anto!
         </h1>
         <p className="text-lg text-muted-foreground">
-          Discover interesting articles and insights
+          Ngedesain Kayu, Ngedesain Digital – Cerita Seorang Drafter Furniture Era Modern
         </p>
       </div>
 
