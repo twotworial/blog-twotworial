@@ -17,7 +17,7 @@ export default function Layout({ children }: LayoutProps) {
                 href="/"
                 className="flex items-center text-xl font-bold text-foreground"
               >
-                My Blog
+                Twotworial
               </Link>
             </div>
             <div className="flex items-center">
