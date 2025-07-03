@@ -11,30 +11,30 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://your-site.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Gesturs - The Notion Blog",
+    default: "Twotworial - Drafter Furniture",
     template: `%s | Gesturs`,
   },
-  description: "A blog built with Next.js and Notion",
+  description: "Ngedesain Kayu, Ngedesain Digital – Cerita Seorang Drafter Furniture Era Modern",
   openGraph: {
-    title: "Gesturs - The Notion Blog",
-    description: "A blog built with Next.js and Notion",
+    title: "Twotworial - Drafter Furniture",
+    description: "Ngedesain Kayu, Ngedesain Digital – Cerita Seorang Drafter Furniture Era Modern",
     url: siteUrl,
-    siteName: "Gesturs",
+    siteName: "Twotworial",
     images: [
       {
         url: `${siteUrl}/opengraph-image.png`,
         width: 1200,
         height: 630,
-        alt: "Gesturs - The Notion Blog",
+        alt: "Twotworial - Drafter Furniture",
       },
     ],
-    locale: "en_US",
+    locale: "id_ID",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gesturs - The Notion Blog",
-    description: "A blog built with Next.js and Notion",
+    title: "Twotworial - Drafter Furniture",
+    description: "Ngedesain Kayu, Ngedesain Digital – Cerita Seorang Drafter Furniture Era Modern",
     images: [`${siteUrl}/opengraph-image.png`],
   },
   robots: {
